@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>162033781619-3bmbgrq8flg7u8t8n8k46ho61blaik0u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.162033781619-3bmbgrq8flg7u8t8n8k46ho61blaik0u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBZh_BvnCZvTXTdOAXg6qaEqQD5AZ7sJMQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>162033781619</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>rpiccirillo1-pride.hofstra.edu.ArduinoTracker</string>
+	<key>PROJECT_ID</key>
+	<string>arduinotracker-4c403</string>
+	<key>STORAGE_BUCKET</key>
+	<string>arduinotracker-4c403.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:162033781619:ios:764f7e2170833bf7c45306</string>
+	<key>DATABASE_URL</key>
+	<string>https://arduinotracker-4c403.firebaseio.com</string>
+</dict>
+</plist>
