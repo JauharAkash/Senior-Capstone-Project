@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		4EDF005F250FCEC100B961B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF005E250FCEC100B961B6 /* AppDelegate.swift */; };
 		4EDF0061250FCEC100B961B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF0060250FCEC100B961B6 /* SceneDelegate.swift */; };
-		4EDF0063250FCEC100B961B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF0062250FCEC100B961B6 /* ViewController.swift */; };
 		4EDF0066250FCEC100B961B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDF0064250FCEC100B961B6 /* Main.storyboard */; };
 		4EDF0068250FCEC300B961B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EDF0067250FCEC300B961B6 /* Assets.xcassets */; };
 		4EDF006B250FCEC300B961B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDF0069250FCEC300B961B6 /* LaunchScreen.storyboard */; };
 		4EDF0076250FCEC300B961B6 /* ArduinoTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF0075250FCEC300B961B6 /* ArduinoTrackerTests.swift */; };
 		4EDF0081250FCEC300B961B6 /* ArduinoTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF0080250FCEC300B961B6 /* ArduinoTrackerUITests.swift */; };
+		4EDF0091250FD0AB00B961B6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF0090250FD0AB00B961B6 /* RootViewController.swift */; };
+		4EDF0093250FD11C00B961B6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF0092250FD11C00B961B6 /* MapViewController.swift */; };
+		4EDF0095250FD2EC00B961B6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF0094250FD2EC00B961B6 /* SignUpViewController.swift */; };
+		4EDF0098250FDDC200B961B6 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF0097250FDDC200B961B6 /* DesignableView.swift */; };
+		4EDF009B2510419700B961B6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF009A2510419700B961B6 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		4EDF005B250FCEC100B961B6 /* ArduinoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArduinoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDF005E250FCEC100B961B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EDF0060250FCEC100B961B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4EDF0062250FCEC100B961B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4EDF0065250FCEC100B961B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EDF0067250FCEC300B961B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EDF006A250FCEC300B961B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		4EDF007C250FCEC300B961B6 /* ArduinoTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArduinoTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDF0080250FCEC300B961B6 /* ArduinoTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArduinoTrackerUITests.swift; sourceTree = "<group>"; };
 		4EDF0082250FCEC300B961B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDF0090250FD0AB00B961B6 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		4EDF0092250FD11C00B961B6 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4EDF0094250FD2EC00B961B6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4EDF0097250FDDC200B961B6 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		4EDF009A2510419700B961B6 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,15 @@
 		4EDF005D250FCEC100B961B6 /* ArduinoTracker */ = {
 			isa = PBXGroup;
 			children = (
+				4EDF00992510418000B961B6 /* Helpers */,
+				4EDF0096250FD31100B961B6 /* ViewControllers */,
 				4EDF005E250FCEC100B961B6 /* AppDelegate.swift */,
 				4EDF0060250FCEC100B961B6 /* SceneDelegate.swift */,
-				4EDF0062250FCEC100B961B6 /* ViewController.swift */,
-				4EDF0064250FCEC100B961B6 /* Main.storyboard */,
 				4EDF0067250FCEC300B961B6 /* Assets.xcassets */,
 				4EDF0069250FCEC300B961B6 /* LaunchScreen.storyboard */,
+				4EDF0064250FCEC100B961B6 /* Main.storyboard */,
 				4EDF006C250FCEC300B961B6 /* Info.plist */,
+				4EDF0097250FDDC200B961B6 /* DesignableView.swift */,
 			);
 			path = ArduinoTracker;
 			sourceTree = "<group>";
@@ -126,6 +136,24 @@
 				4EDF0082250FCEC300B961B6 /* Info.plist */,
 			);
 			path = ArduinoTrackerUITests;
+			sourceTree = "<group>";
+		};
+		4EDF0096250FD31100B961B6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF0094250FD2EC00B961B6 /* SignUpViewController.swift */,
+				4EDF0090250FD0AB00B961B6 /* RootViewController.swift */,
+				4EDF0092250FD11C00B961B6 /* MapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4EDF00992510418000B961B6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4EDF009A2510419700B961B6 /* Utilities.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +287,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EDF0063250FCEC100B961B6 /* ViewController.swift in Sources */,
 				4EDF005F250FCEC100B961B6 /* AppDelegate.swift in Sources */,
 				4EDF0061250FCEC100B961B6 /* SceneDelegate.swift in Sources */,
+				4EDF009B2510419700B961B6 /* Utilities.swift in Sources */,
+				4EDF0098250FDDC200B961B6 /* DesignableView.swift in Sources */,
+				4EDF0091250FD0AB00B961B6 /* RootViewController.swift in Sources */,
+				4EDF0093250FD11C00B961B6 /* MapViewController.swift in Sources */,
+				4EDF0095250FD2EC00B961B6 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
