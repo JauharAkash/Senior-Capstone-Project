@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,6 +23,7 @@
 		4EDF0098250FDDC200B961B6 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF0097250FDDC200B961B6 /* DesignableView.swift */; };
 		4EDF009B2510419700B961B6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF009A2510419700B961B6 /* Utilities.swift */; };
 		4EDF009D25104ABA00B961B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EDF009C25104ABA00B961B6 /* GoogleService-Info.plist */; };
+		4EDF009F251051FA00B961B6 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF009E251051FA00B961B6 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		4EDF0097250FDDC200B961B6 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		4EDF009A2510419700B961B6 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		4EDF009C25104ABA00B961B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4EDF009E251051FA00B961B6 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		62212398D927569D78D6A7E0 /* Pods-ArduinoTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArduinoTracker.release.xcconfig"; path = "Target Support Files/Pods-ArduinoTracker/Pods-ArduinoTracker.release.xcconfig"; sourceTree = "<group>"; };
 		A139E266BFBC7BE2CC140838 /* Pods-ArduinoTracker-ArduinoTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArduinoTracker-ArduinoTrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-ArduinoTracker-ArduinoTrackerUITests/Pods-ArduinoTracker-ArduinoTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B08F7C2ED5F65E8D430424E5 /* Pods-ArduinoTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArduinoTracker.debug.xcconfig"; path = "Target Support Files/Pods-ArduinoTracker/Pods-ArduinoTracker.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,7 +113,6 @@
 				2157A237C7735398863DF06B /* Pods-ArduinoTrackerTests.debug.xcconfig */,
 				09A4B36299DEE0318F5D8E38 /* Pods-ArduinoTrackerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -186,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				4EDF009A2510419700B961B6 /* Utilities.swift */,
+				4EDF009E251051FA00B961B6 /* File.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -445,6 +447,7 @@
 				4EDF009B2510419700B961B6 /* Utilities.swift in Sources */,
 				4EDF0098250FDDC200B961B6 /* DesignableView.swift in Sources */,
 				4EDF0091250FD0AB00B961B6 /* RootViewController.swift in Sources */,
+				4EDF009F251051FA00B961B6 /* File.swift in Sources */,
 				4EDF0093250FD11C00B961B6 /* MapViewController.swift in Sources */,
 				4EDF0095250FD2EC00B961B6 /* SignUpViewController.swift in Sources */,
 			);
