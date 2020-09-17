@@ -1,0 +1,6 @@
+framework module Pods_ArduinoTrackerTests {
+  umbrella header "Pods-ArduinoTrackerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
