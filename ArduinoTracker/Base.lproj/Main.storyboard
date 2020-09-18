@@ -22,8 +22,8 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xJ5-1t-Ybv">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moon.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7F1-IV-QvV">
-                                        <rect key="frame" x="0.0" y="8.5" width="414" height="127"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.2" catalog="system" highlightedImage="pencil.and.ellipsis.rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="7F1-IV-QvV">
+                                        <rect key="frame" x="0.0" y="9.5" width="414" height="125.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="128" id="oSq-8u-Cj0"/>
                                         </constraints>
@@ -31,7 +31,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="fqx-8E-zEL">
                                         <rect key="frame" x="0.0" y="156" width="414" height="316"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To Arduino Tracker!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DvF-JV-YzW">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To Arduino Tracker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DvF-JV-YzW">
                                                 <rect key="frame" x="16" y="8" width="382" height="60"/>
                                                 <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="GB18030Bitmap" family="GB18030 Bitmap" pointSize="24"/>
@@ -124,24 +124,25 @@
                                         <color key="backgroundColor" red="0.99330487950000002" green="0.99970930810000003" blue="0.82900308749999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <edgeInsets key="layoutMargins" top="8" left="16" bottom="8" right="16"/>
                                     </stackView>
-                                    <view contentMode="scaleToFill" verticalHuggingPriority="200" translatesAutoresizingMaskIntoConstraints="NO" id="jLb-wS-nvO">
-                                        <rect key="frame" x="0.0" y="492" width="414" height="266.5"/>
+                                    <view hidden="YES" contentMode="scaleToFill" verticalHuggingPriority="200" translatesAutoresizingMaskIntoConstraints="NO" id="jLb-wS-nvO">
+                                        <rect key="frame" x="0.0" y="482" width="414" height="0.0"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="tintColor" red="0.99330487950000002" green="0.99970930810000003" blue="0.82900308749999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dSI-Hc-tzP">
-                                        <rect key="frame" x="0.0" y="778.5" width="414" height="21.5"/>
+                                        <rect key="frame" x="0.0" y="492" width="414" height="308"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="pLF-0O-KcW">
-                                                <rect key="frame" x="80" y="0.0" width="254" height="21.5"/>
+                                                <rect key="frame" x="80" y="0.0" width="254" height="308"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Who-GC-mit">
-                                                        <rect key="frame" x="0.0" y="0.0" width="189" height="21.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="189" height="308"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2YY-a3-B7c">
-                                                        <rect key="frame" x="193" y="0.0" width="61" height="21.5"/>
+                                                        <rect key="frame" x="193" y="0.0" width="61" height="308"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                         <state key="normal" title="Sign up">
                                                             <color key="titleColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -498,6 +499,7 @@
         <segue reference="NLT-sa-EOj"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="moon.circle" catalog="system" width="128" height="121"/>
+        <image name="pencil.and.ellipsis.rectangle" catalog="system" width="128" height="81"/>
+        <image name="person.2" catalog="system" width="128" height="81"/>
     </resources>
 </document>
