@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		166B50D47297CF419C7A952E /* Pods_ArduinoTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E632EA07D5EFDFE1BB6C5A76 /* Pods_ArduinoTracker.framework */; };
+		38AA6C9125154B80003676F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AA6C9025154B7F003676F4 /* ViewController.swift */; };
 		3B1FEF17B5A50F133E5CBF8F /* Pods_ArduinoTracker_ArduinoTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD123AC0FD6F8A8326DAFC8E /* Pods_ArduinoTracker_ArduinoTrackerUITests.framework */; };
 		4301A948B671814674F93DC1 /* Pods_ArduinoTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AD37E59D1117EA1822C14A /* Pods_ArduinoTrackerTests.framework */; };
 		4EDF005F250FCEC100B961B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF005E250FCEC100B961B6 /* AppDelegate.swift */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		09A4B36299DEE0318F5D8E38 /* Pods-ArduinoTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArduinoTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-ArduinoTrackerTests/Pods-ArduinoTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 		2157A237C7735398863DF06B /* Pods-ArduinoTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArduinoTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-ArduinoTrackerTests/Pods-ArduinoTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38AA6C9025154B7F003676F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = /Users/Akash/Desktop/ArduinoTracker/ArduinoTracker/ViewController.swift; sourceTree = "<absolute>"; };
 		4D2220DB26DC3AB14D267F90 /* Pods-ArduinoTracker-ArduinoTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArduinoTracker-ArduinoTrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-ArduinoTracker-ArduinoTrackerUITests/Pods-ArduinoTracker-ArduinoTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4EDF005B250FCEC100B961B6 /* ArduinoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArduinoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDF005E250FCEC100B961B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				4EDF0060250FCEC100B961B6 /* SceneDelegate.swift */,
 				4EDF0067250FCEC300B961B6 /* Assets.xcassets */,
 				4EDF0069250FCEC300B961B6 /* LaunchScreen.storyboard */,
+				38AA6C9025154B7F003676F4 /* ViewController.swift */,
 				4EDF0064250FCEC100B961B6 /* Main.storyboard */,
 				4EDF006C250FCEC300B961B6 /* Info.plist */,
 				4EDF0097250FDDC200B961B6 /* DesignableView.swift */,
@@ -445,6 +448,7 @@
 				4EDF005F250FCEC100B961B6 /* AppDelegate.swift in Sources */,
 				4EDF0061250FCEC100B961B6 /* SceneDelegate.swift in Sources */,
 				4EDF009B2510419700B961B6 /* Utilities.swift in Sources */,
+				38AA6C9125154B80003676F4 /* ViewController.swift in Sources */,
 				4EDF0098250FDDC200B961B6 /* DesignableView.swift in Sources */,
 				4EDF0091250FD0AB00B961B6 /* RootViewController.swift in Sources */,
 				4EDF009F251051FA00B961B6 /* Constants.swift in Sources */,
@@ -629,7 +633,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rpiccirillo1-pride.hofstra.edu.ArduinoTracker";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.hofstra.AkashJauhar.ArduinoTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -647,7 +651,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rpiccirillo1-pride.hofstra.edu.ArduinoTracker";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.hofstra.AkashJauhar.ArduinoTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

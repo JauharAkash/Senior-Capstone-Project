@@ -33,4 +33,15 @@ class DesignableView: UIView {
             layer.shadowOffset.height = shadowOffsetY
         }
     }
+    
+   //@IBOutlet weak var map: MKMapView!
+    
+   // override func viewDidLoad(){
+     //   var centerLocation = CLLocationCoo (-27.478344, 153.027622)
+        
+   // }
+    
+    
+    
+    
 }
