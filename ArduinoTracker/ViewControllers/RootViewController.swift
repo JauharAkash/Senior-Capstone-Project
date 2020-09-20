@@ -71,7 +71,7 @@ class RootViewController: UIViewController {
         
         if error != nil  {
             // Couldn't sign in
-            self.loginLabel.text = "No Password."
+            self.loginLabel.text = "Wrong Password"
         }
         
         else {
