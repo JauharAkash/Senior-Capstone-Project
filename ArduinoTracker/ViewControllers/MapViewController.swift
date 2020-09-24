@@ -17,7 +17,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     
     var locationManager = CLLocationManager()
 
-    // Current location 
+    // Current location is hard coded to NYC
     
     
     //fileprivate let locationManager:CLLocationManager = CLLocationManager()
@@ -61,7 +61,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations
         location: [CLLocation]){
        // self.mapView
-        let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: location[0].coordinate.latitude, longitude: location[0].coordinate.longitude), span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))
+        let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: location[0].coordinate.latitude, longitude: location[0].coordinate.longitude), span: MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02)) // For zooming into the map
             mapView.setRegion(region, animated: true)
 
         }
