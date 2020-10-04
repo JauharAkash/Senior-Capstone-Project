@@ -58,6 +58,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
       //  manager.startUpdatingLocation()
         // Do any additional setup after loading the view.
     }
+    //Using current location of the device
     func locationManager(_ manager: CLLocationManager, didUpdateLocations
         location: [CLLocation]){
         guard let location = location.last else {return}
