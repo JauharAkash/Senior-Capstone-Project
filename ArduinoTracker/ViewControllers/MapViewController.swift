@@ -60,12 +60,27 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     }
     func locationManager(_ manager: CLLocationManager, didUpdateLocations
         location: [CLLocation]){
+        guard let location = location.last else {return}
+        let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
+        let region = MKCoordinateRegion.init(center: center, latitudinalMeters: 200, longitudinalMeters: 200)
+        mapView.setRegion(region, animated: true)
+        
+        func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+            //checkLocationAuthorization()
+        }
+    }
+/*
        // self.mapView
         let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: location[0].coordinate.latitude, longitude: location[0].coordinate.longitude), span: MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02)) // For zooming into the map
             mapView.setRegion(region, animated: true)
 
         }
+
     }
+
+/*extension MapScreen: CLLocationManagerDelegate {
+    
+}*/
 
     /*
     // MARK: - Navigation
@@ -76,5 +91,6 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         // Pass the selected object to the new view controller.
     }
     */
+*/
 
-
+}
