@@ -21,6 +21,7 @@ class RootViewController: UIViewController {
     
     @IBOutlet weak var loginButton: UIButton!
     
+    @IBOutlet weak var errorLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,7 +72,7 @@ class RootViewController: UIViewController {
         
         if error != nil  {
             // Couldn't sign in
-            self.loginLabel.text = "Wrong Password"
+            self.errorLabel.text = "That doesn't match an email or password in our system. Please try again."
         }
         
         else {
