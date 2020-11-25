@@ -40,7 +40,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
 //        self.mapView.showsUserLocation = true
 //    }
 //
-/*
+
     override func viewDidLoad() {
         super.viewDidLoad()
         mapView.showsUserLocation = true
@@ -68,7 +68,8 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         guard let location = location.last else {return}
         let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
         let db = Firestore.firestore()
-        db.collection("test_current").addDocument(data: ["lat": location.coordinate.latitude, "long": location.coordinate.longitude])
+       // db.collection("test_current").addDocument(data: ["lat": location.coordinate.latitude, "long": location.coordinate.longitude])
+        db.collection("test_current").document("123").setData(["lat": location.coordinate.latitude, "long": location.coordinate.longitude])//  .addDocument(data: ["lat": location.coordinate.latitude, "long": location.coordinate.longitude])
             
         let region = MKCoordinateRegion.init(center: center, latitudinalMeters: 200, longitudinalMeters: 200)
         mapView.setRegion(region, animated: true)
@@ -77,7 +78,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
             //checkLocationAuthorization()
         }
     }
-*/
+
 /*
        // self.mapView
         let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: location[0].coordinate.latitude, longitude: location[0].coordinate.longitude), span: MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02)) // For zooming into the map
@@ -103,6 +104,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
 */
 
 //}
+    /*
 
 
     override func viewDidLoad() {
@@ -193,7 +195,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
          }
      }
      
-
+*/
      /*func readDBLocation() -> CLLocationCoordinate2D
      {
          let db = Firestore.firestore()
